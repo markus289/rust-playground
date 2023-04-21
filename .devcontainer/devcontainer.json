@@ -1,0 +1,28 @@
+{
+  "name": "Rust",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "[rust]": {
+          "editor.rulers": [
+            100
+          ]
+        },
+        "editor.rulers": [
+          80
+        ],
+        "extensions.ignoreRecommendations": true,
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "telemetry.enableCrashReporter": false,
+        "telemetry.enableTelemetry": false
+      },
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
